@@ -35,3 +35,35 @@ img{
     line-height: 1.8;
     flex: 2;
 }
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    background-color:blue;
+    color: white;
+    padding; 10px 20px;
+    border-radius: 5px;
+    text-align: centre;
+    margin: 20px auto;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0,0,0,1);
+    align-items: centre;
+}
+
+a:hover{
+    background-color: gold;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+}
